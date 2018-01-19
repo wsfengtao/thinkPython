@@ -1,0 +1,321 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Appizz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="applijewelleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href="{{ static_url("css/bootstrap.css") }}" rel='stylesheet' type='text/css' />
+    <!-- Custom Theme files -->
+    <link href="{{ static_url("css/style.css") }}" rel='stylesheet' type='text/css' />
+    <script src="{{ static_url("js/jquery-1.11.1.min.js") }}"></script>
+    <!--webfonts-->
+    <link href='{{ static_url("js/jquery-1.11.1.min.js") }}' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="{{ static_url("favicon.ico") }}" mce_href="/favicon.ico" type="image/x-icon">
+    <link href='{{ static_url("css/myfont.css") }}' rel='stylesheet' type='text/css'>
+    <!--//webfonts-->
+</head>
+
+<body>
+    <!--start-home-->
+    <div class="banner" id="home">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <a href="javascript:void(0);"><h1>Appizz</h1></a>
+                </div>
+                <div class="banner-grids">
+                    <ul class="banner-imgs">
+                        <li><img src="{{ static_url("images/iphone.png") }}" alt="name" /></li>
+                        <li><img src="{{ static_url("images/s2.png") }}" alt="name" /></li>
+                        <div class="clearfix"></div>
+                    </ul>
+                </div>
+                <h2>Appizz 平台是一款由 <span>广西科技大学在校大学生 </span>开发的 <lable>移动驾校预约后端服务</lable>提供平台</h2>
+            </div>
+        </div>
+    </div>
+    <!--/welcome-->
+    <div class="about-section">
+        <div class="container">
+            <div class="ab-text">
+                <h3>关于我们</h3>
+                <h4>使用Appizz几乎能免去所有服务器端编码工作量.</h4>
+                <h4>前端工程师几分钟内即可为你的驾校预约APP添加一个强大的后端服务系统.</h4>
+            </div>
+        </div>
+    </div>
+    <!--/news-->
+    <!-- features -->
+    <div class="features">
+        <!-- container -->
+        <div class="col-md-6 features-right">
+            <h4>灵活</h4>
+            <div class="features-right-grids">
+                <div class="features-right-grid right-top">
+                    <div class="design-left"> </div>
+                    <div class="design-right">
+                        <h5>独特的接口设计</h5>
+                        <p>采用Restful 设计模式,让调用更轻松</p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="features-right-grid right-middle-top">
+                    <div class="design-left easy"> </div>
+                    <div class="design-right">
+                        <h5>web后台管理</h5>
+                        <p>提供全站式解决方案,帮助您快速定制web管理后台. </p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="features-right-grid right-middle">
+                    <div class="design-left developer"> </div>
+                    <div class="design-right">
+                        <h5>高性能 高稳定</h5>
+                        <p>异步后端并发能力强大,为您的app保驾护航</p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="features-right-grid right-bottom">
+                    <div class="design-left fully"> </div>
+                    <div class="design-right">
+                        <h5>文件服务</h5>
+                        <p>轻松实现应用数据存储与访问</p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 slid">
+            <script src="{{ static_url("js/responsiveslides.min.js") }}"></script>
+            <script>
+                // You can also use "$(window).load(function() {"
+                $(function() {
+                    $("#slider2").responsiveSlides({
+                        auto: true,
+                        pager: true,
+                        speed: 300,
+                        namespace: "callbacks",
+                    });
+                });
+            </script>
+            <!--/End-slider-script-->
+            <div id="top" class="callbacks_container">
+                <ul class="rslides" id="slider2">
+                    <li>
+                        <div class="mobile-device">
+
+                            <img src="{{ static_url("images/m1.png") }}" alt="" />
+                        </div>
+                    </li>
+                    <li>
+                        <div class="mobile-device green-device">
+                            <img src="{{ static_url("images/m2.png") }}" alt="" />
+                        </div>
+                    </li>
+                    <li>
+                        <div class="mobile-device">
+                            <img src="{{ static_url("images/m1.png") }}" alt="" />
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+    <!--screenshots-->
+    <div id="screenshots" class="screen-shots">
+        <div class="container">
+            <h4>合作伙伴成果展示</h4>
+            <div class="review-slider">
+                <ul id="flexiselDemo1">
+                    <li><img src="{{ static_url("images/s1.png") }}" alt="" /></li>
+                    <li><img src="{{ static_url("images/s2.png") }}" alt="" /></li>
+                    <li><img src="{{ static_url("images/s3.png") }}" alt="" /></li>
+                    <li><img src="{{ static_url("images/s4.png") }}" alt="" /></li>
+                    <li><img src="{{ static_url("images/s5.png") }}" alt="" /></li>
+                </ul>
+                <script type="text/javascript">
+                    $(window).load(function() {
+
+                        $("#flexiselDemo1").flexisel({
+                            visibleItems: 4,
+                            animationSpeed: 1000,
+                            autoPlay: true,
+                            autoPlaySpeed: 3000,
+                            pauseOnHover: true,
+                            enableResponsiveBreakpoints: true,
+                            responsiveBreakpoints: {
+                                portrait: {
+                                    changePoint: 480,
+                                    visibleItems: 2
+                                },
+                                landscape: {
+                                    changePoint: 640,
+                                    visibleItems: 3
+                                },
+                                tablet: {
+                                    changePoint: 768,
+                                    visibleItems: 3
+                                }
+                            }
+                        });
+                    });
+                </script>
+                <script type="text/javascript" src="{{ static_url("js/jquery.flexisel.js") }}"></script>
+            </div>
+        </div>
+    </div>
+    <!--light-box-files -->
+    <script src="{{ static_url("js/jquery.chocolat.js") }}"></script>
+    <link rel="stylesheet" href="{{ static_url("css/chocolat.css") }}" type="text/css" media="screen" charset="utf-8" />
+    <!--light-box-files -->
+    <script type="text/javascript" charset="utf-8">
+        $(function() {
+            $('.gallery-bottom a').Chocolat();
+        });
+    </script>
+    <!--gallery-starts-->
+    <div class="gallery" id="gallery">
+        <div class="container">
+            <h3>移动app 让生活更简单</h3>
+            <div class="gallery-bottom">
+                <div class="col-md-4 gallery-left">
+                    <a href="{{ static_url("images/g1.jpg") }}">
+                        <img src="{{ static_url("images/g1.jpg") }}" alt="name" />
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-left">
+                    <a href="{{ static_url("images/g2.jpg") }}">
+                        <img src="{{ static_url("images/g2.jpg") }}" alt="name" />
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-left">
+                    <a href="{{ static_url("images/g3.jpg") }}">
+                        <img src="{{ static_url("images/g3.jpg") }}" alt="name" />
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-left">
+                    <a href="{{ static_url("images/g4.jpg") }}">
+                        <img src="{{ static_url("images/g4.jpg") }}" alt="name" />
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-left">
+                    <a href="{{ static_url("images/g6.jpg") }}">
+                        <img src="{{ static_url("images/g6.jpg") }}" alt="name" />
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-left">
+                    <a href="{{ static_url("images/g5.jpg") }}">
+                        <img src="{{ static_url("images/g5.jpg") }}" alt="name" />
+                    </a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!--gallery-->
+    <!--/start-text-slider--->
+    <div class="testimonials" id="testimonials">
+        <h3>开发者</h3>
+        <div class="wmuSlider example1">
+            <div class="container-flueid">
+                <article style="position: absolute; width:64%; opacity: 0;">
+                    <div class="cont span_2_of_3  client-main">
+                        <div class="client">
+                            <img src="{{ static_url("images/client3.jpg") }}" alt="">
+                        </div>
+                        <h4>冯涛</h4>
+                        <p>在校大学生，服务后端开发者。本套产品是基于我们大学生创新创业项目而生，也作为自己的一次锻炼</p>
+                        <span> </span>
+                    </div>
+                </article>
+                <article style="position: absolute; width:64%; opacity: 0;">
+                    <div class="cont span_2_of_3  client-main">
+                        <div class="client">
+                            <img src="{{ static_url("images/client4.jpg") }}" alt="">
+                        </div>
+                        <h4>甘树禧</h4>
+                        <p>在校大学生，app开发者。(未填写).....</p>
+                        <span> </span>
+                    </div>
+                </article>
+
+                <script src="{{ static_url("js/jquery.wmuSlider.js") }}"></script>
+                <script>
+                    $('.example1').wmuSlider();
+                </script>
+            </div>
+        </div>
+    </div>
+    <!---/text-slider-->
+    <!-- Contact start-->
+    <div class="contact" id="contact">
+        <div class="container">
+            <h3>联系我们</h3>
+            <div class="row contact-row">
+                <div class="col-md-4 contact-row-left"></div>
+                <div class="col-md-6 contact-row-left">
+                    <p class="add-mark"><span><img src="{{ static_url("images/point.png") }}" /></span>广西省柳州市广西科技大学计算机科学与通信工程学院</p>
+                    <p class="cel-mark"><span><img src="{{ static_url("images/ph.png") }}" /></span>1307806xxxx</p>
+                    <p class="ema-mark"><span><img src="{{ static_url("images/ema-sy.png") }}" /></span><a href="mailto:example@mail.com">2050625790@qq.com</a></p>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- /footer-->
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-main">
+                <div class="col-md-6 footer-logo " style="float: none;display: block;margin:0 auto;">
+                    <div class="logo two text-center">
+                        <a href="javascript:void(0);" style="text-align:none;"><h3>Appizz</h3></a>
+                    </div>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+            <div class="copy-right">
+                <p>Copyright &copy; 2015.Company name All rights reserved geek_Feng</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- //footer-->
+
+    <!--start-smoth-scrolling-->
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!--start-smoth-scrolling-->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            /*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear'
+								 		};
+										*/
+
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+    <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+
+</html>
